@@ -59,3 +59,24 @@
     - · Image Classification
     - · Deep Learning
     - · CNN
+
+- id: hypernerf
+  title: "AI for Traffic Signal Control"
+  venue: Bangalore Tech Summit, Hackathon, 2018
+  description: >-
+    The study aims to reduce traffic congestion using AI and computer vision.
+    The proposed methodology shows 40% reduction in average waiting time.
+    A pre-emption system for priority vehicles like ambulances can be integrated.
+    A Deep Q-Learning model will optimize traffic signals by analyzing queue
+    lengths and vehicle speeds from live video feeds. The congestion or vehicle
+    presence is detected, classified and computed into vehicle density using YOLO
+    computer vision CNN model.
+  project_page: "https://github.com/sriharshapy/Team-Anonymous-BTS"
+  github: sriharshapy/Team-Anonymous-BTS
+  image: project4.png
+  image_mouseover: project4.mp4
+  skills:
+    - · CNN
+    - · Deep Learning
+    - · Computer Vision
+    - · DQN
