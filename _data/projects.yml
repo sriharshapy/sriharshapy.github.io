@@ -1,7 +1,10 @@
-- id: illuminerf
-  title: "IllumiNeRF 3D Relighting without Inverse Rendering"
+- id: garmentSeg
+  title: "Garment segmentation(Image segmentation)"
   venue: arXiv, 2024
-  description: "3D relighting by distilling samples from a 2D image relighting diffusion model into a latent-variable NeRF."
+  description: "Fine tuned a pre-trained transformer Encoder MLP Decoder architecture into semantic segmentation model. Dataset has 18 labels and 17k samples. The model contains about 3.7 million params. Model achieved mean mIoU of 0.514%"
+  huggingface_page: "https://huggingface.co/hitmanonholiday/clozy-segmentation-b0"
+
+
   project_page: https://illuminerf.github.io
   arxiv: 2406.06527
   image: illuminerf_before.jpg
