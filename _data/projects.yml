@@ -1,7 +1,10 @@
 - id: garmentSeg
   title: "Garment segmentation(Image segmentation)"
-  venue: Research, 2024
-  description: "Fine tuned a pre-trained transformer Encoder MLP Decoder architecture into semantic segmentation model. Dataset has 18 labels and 17k samples. The model contains about 3.7 million params. Model achieved mean mIoU of 051%"
+  venue: Research, Summer 2024
+  description: >-
+    Fine tuned a pre-trained transformer Encoder MLP Decoder architecture into
+    semantic segmentation model. Dataset has 18 labels and 17k samples. The
+    model contains about 3.7 million params. Model achieved mean mIoU of 0.514"
   project_page: https://huggingface.co/hitmanonholiday/clozy-segmentation-b0
   colab: https://colab.research.google.com/drive/1gIhu3Uy9KWwn2qVii4b8K341SykjGJ_H?usp=sharing
   image: segmentation.png
@@ -9,16 +12,19 @@
   skills:
     - · Computer Vision
     - · Transformers
-    - · PyTorch
+    - · Deep Learning
     - · Image Segmentation
+    - · Fine Tuning
 
 - id: reconfusion
   title: "LLAVA Multimodal Fine tuning"
-  venue: Research, 2024
+  venue: Research, Summer 2024
   description: >-
-    Using llava-1.5-7b-hf 7 billion params multi modal, I fine tuned it into a chat instruction model. The dataset contains both images and text.
-    GPU Nvidia A100 on google colab was used to fine tune this model with Lora technique. To enhance the training speed and reduce compute
-    the model is 4 bit quantized.
+    Using llava-1.5-7b-hf 7 billion params multi modal, I fine tuned it into a
+    chat instruction model. The dataset contains both images and text.
+    GPU Nvidia A100 on google colab was used to fine tune this model with Lora
+    technique. To enhance the training speed and reduce compute the model is
+    4 bit quantized.
   skills:
     - · PEFT
     - · Computer Vision
@@ -31,22 +37,27 @@
   image_mouseover: project2.mp4
 
 - id: hypernerf
-  title: "CamP: Camera Preconditioning for Neural Radiance Fields"
-  venue: SIGGRAPH Asia, 2023
-  description: "Preconditioning camera optimization during NeRF training significantly improves their ability to jointly recover the scene and camera parameters."
-  project_page: "https://camp-nerf.github.io"
-  github: jonbarron/camp_zipnerf
-  arxiv: 2308.10902
-  image: camp_before.jpg
-  image_mouseover: camp_after.mp4
+  title: "Pre training vs Fine tuning"
+  venue: Research Spring, 2024
+  description: >-
+    This study examines the performance of various deep learning models on a
+    small, custom dataset of 1,800 images across six categories. We compare the
+    efficacy of training models from scratch against using fine tuned pretrained
+    architectures, specifically ResNet-18, VGG-19, and Inception V3. Our results
+    suggest that fine tuned models of pretrained architectures significantly
+    outperform models trained from scratch, offering better accuracy with
+    less computational expense, particularly in data-constrained environments.
+    The implications of these findings advocate for the strategic use of
+    transfer learning in similar small-scale data settings.
+  project_page: "https://github.com/sriharshapy/MLProjectSpring2024/blob/main/ML_PROJECT_SPRING_2024.pdf"
+  github: sriharshapy/MLProjectSpring2024
+  image: project3.jpg
+  image_mouseover: project3.mp4
   authors:
-    - keunhong
-    - phenzler
-    - bmild
-    - barron
-    - rmbrualla
-  awards:
-    - "Journal Paper"
+    - · Comparative Analysis
+    - · Fine tuning
+    - · Image Classification
+    - · Deep Learning
 
 - id: hypernerf
   title: "HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields"
