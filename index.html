@@ -122,6 +122,13 @@ layout: null
         <div class="column">
           <div class="content">
             <h3 class="project-title"><a href="{{ project.project_page }}">{{ project.title }}</a></h3>
+            <div class="project-skills">
+              {% for skill in project.skills %}
+              <span class="skills-block {% if skills.is_me %}skills-me{% endif %}">
+                {{ skill }}
+              </span>
+              {% endfor %}
+            </div>
             <div class="project-venue">
               <span>{{ project.venue }}</span>
               {% for award in project.awards %}
