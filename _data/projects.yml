@@ -7,10 +7,10 @@
   image: segmentation.png
   image_mouseover: segmentation.mp4
   skills:
-    - Computer Vision
-    - Transformers
-    - PyTorch
-    - Image Segmentation
+    - · Computer Vision
+    - · Transformers
+    - · PyTorch
+    - · Image Segmentation
 
 - id: reconfusion
   title: "LLAVA Multimodal Fine tuning"
@@ -22,12 +22,12 @@
     contains both images and text. GPU Nvidia A100 on google   colab was used to fine tune this model. Methodology used is Lora. To enhance the
     training speed and reduce compute the model is 4 bit quantized.
   skills:
-    - PEFT
-    - Computer Vision
-    - Large Multi modal (LMM)
-    - Acceralated Computing
-    - Fine Tuning
-    - Artificial Intelligence (AI)
+    - · PEFT
+    - · Computer Vision
+    - · Large Multi modal (LMM)
+    - · Acceralated Computing
+    - · Fine Tuning
+    - · Artificial Intelligence (AI)
   project_page: https://reconfusion.github.io
   arxiv: 2312.02981
   image: reconfusion_before.png
