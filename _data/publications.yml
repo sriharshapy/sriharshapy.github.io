@@ -1,0 +1,53 @@
+- id: garmentSeg
+  title: "An innovative technical solution to avoid insomnia and noise-induced hearing loss"
+  venue: International Journal of Medical Engineering and Informatics
+  description: >-
+    The major challenge these days with the increased usage of the mobile phone is
+    loss of sleep, and threat to mental wellness. Sleep time is meant for the brain
+    to rejuvenate. If the sleep patterns are disturbed due to a continuous external
+    disturbance, it is most likely to disturb the deep sleep. It is wise to
+    switch-off the music after the person sleeps which most of us do not do as we
+    are already slept by then. Many researches convey that music is a solution to
+    reduce stress and to bring sleep. But, we are using headphones for music and
+    it causes side-effects including affecting sleep and noise induced hearing loss
+    (NIHL). Here, we propose a system which will ensure that the music player is
+    stopped after understanding that the person using it has slept and he no more
+    needs the tunes thereby not disturbing the sleep and preventing insomnia/NIHL.
+  project_page: https://www.inderscienceonline.com/doi/abs/10.1504/IJMEI.2019.101634
+  image: pb1.png
+  image_mouseover: pb1.mp4
+  authors:
+    - Shriram K. Vasudevan
+    - Ikram Shah
+    - Sriharsha Patallapalli
+    - S. Karthikeyan
+    - S. Subhash Chandran
+    - U. Adithya Bharadwaj
+
+
+- id: garmentSeg
+  title: "Smart and efficient IoT-based quality tracking system for perishables-pertaining to Indian conditions"
+  venue: International Journal of Medical Engineering and Informatics
+  description: >-
+    In most countries, vegetables, fruits, or any edible material (could be a
+    raw material as well) is cultivated in one place and circulated to all the
+    other places in the country through various modes of transport. For example,
+    most of the vegetables are from Coimbatore and other parts of Tamilnadu are
+    cultivated and circulated from Ooty through truck, lorries and other modes
+    of transports. It is eventually understandable that, the transports of
+    vegetables happen from one place to another and the same gets distributed
+    to further interior places. In the process, the order in which the
+    vegetables are stacked in the order in which the vegetables are stacked out.
+    The first placed vegetable basket is the last one to go out; by the time it
+    goes out, it could have already been spoiled and could be unusable. Also,
+    there could be some vegetables that could withstand much more time inside
+    the transport vehicle. Our innovation is aimed at identifying the vegetable
+    basket that is most likely to be spoiled and delivering it earlier in order
+    to reduce the chance that it arrives spoiled.
+  project_page: https://www.inderscienceonline.com/doi/abs/10.1504/IJAIP.2023.135853
+  image: pb2.png
+  image_mouseover: pb2.mp4
+  authors:
+    - Ikram Shah
+    - Sriharsha Patallapalli
+    - Shriram K. Vasudevan
