@@ -113,7 +113,7 @@ layout: null
             <div class="project-skills">
               {% for author in publication.authors %}
               <span class="skills-block {% if skills.is_me %}skills-me{% endif %}">
-                {{ skill }}
+                {{ author }}
               </span>
               {% endfor %}
             </div>
