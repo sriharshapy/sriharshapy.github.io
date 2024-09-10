@@ -17,33 +17,19 @@
   venue: Research, 2024
   description: >-
     Using llava-1.5-7b-hf 7 billion params multi modal, I fine tuned it into a chat instruction model. The dataset contains both images and text.
-    GPU Nvidia A100 on google colab was used to fine tune this model. Methodology used is Lora. To enhance the training speed and reduce compute
-    the model is 4 bit quantized.Using llava-1.5-7b-hf 7 billion params multi modal, I fine tuned it into a chat instruction model. The dataset
-    contains both images and text. GPU Nvidia A100 on google   colab was used to fine tune this model. Methodology used is Lora. To enhance the
-    training speed and reduce compute the model is 4 bit quantized.
+    GPU Nvidia A100 on google colab was used to fine tune this model with Lora technique. To enhance the training speed and reduce compute
+    the model is 4 bit quantized.
   skills:
     - · PEFT
     - · Computer Vision
     - · Large Multi modal (LMM)
     - · Acceralated Computing
     - · Fine Tuning
-    - · Artificial Intelligence (AI)
-  project_page: https://reconfusion.github.io
-  arxiv: 2312.02981
-  image: reconfusion_before.png
-  image_mouseover: reconfusion_after.mp4
-  authors:
-    - rundiwu
-    - bmild
-    - phenzler
-    - keunhong
-    - ruiqigao
-    - danielwatson
-    - pratuls
-    - dorverbin
-    - barron
-    - pooleb
-    - holynski
+  project_page: https://github.com/sriharshapy/LLAVA-finetune-multimodal/tree/main
+  github: sriharshapy/LLAVA-finetune-multimodal
+  image: project2.png
+  image_mouseover: project2.mp4
+
 - id: hypernerf
   title: "CamP: Camera Preconditioning for Neural Radiance Fields"
   venue: SIGGRAPH Asia, 2023
