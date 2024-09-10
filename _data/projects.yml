@@ -5,6 +5,7 @@
   project_page: https://huggingface.co/hitmanonholiday/clozy-segmentation-b0
   colab: https://colab.research.google.com/drive/1gIhu3Uy9KWwn2qVii4b8K341SykjGJ_H?usp=sharing
   image: segmentation.png
+  image_mouseover: reconfusion_after.mp4
 
 - id: reconfusion
   title: "ReconFusion: 3D Reconstruction with Diffusion Priors"
