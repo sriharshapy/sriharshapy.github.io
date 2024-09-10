@@ -122,20 +122,6 @@ layout: null
         <div class="column">
           <div class="content">
             <h3 class="project-title"><a href="{{ project.project_page }}">{{ project.title }}</a></h3>
-            <div class="project-authors">
-              {% for author_id in project.authors %}
-              {% assign author = site.data.authors[author_id] %}
-              <span class="author-block {% if author.is_me %}author-me{% endif %}">
-                {% if author.is_me %}
-                {{ author.first_name }} {{author.middle_name}} {{ author.last_name }}{% if forloop.last == false %},{%
-                endif %}
-                {% else %}
-                <a href="{{ author.website }}">{{ author.first_name }} {{ author.middle_name }} {{ author.last_name
-                  }}</a>{% if forloop.last == false %},{% endif %}
-                {% endif %}
-              </span>
-              {% endfor %}
-            </div>
             <div class="project-venue">
               <span>{{ project.venue }}</span>
               {% for award in project.awards %}
