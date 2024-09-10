@@ -1,18 +1,11 @@
 - id: garmentSeg
   title: "Garment segmentation(Image segmentation)"
-  venue: arXiv, 2024
+  venue: Research, 2024
   description: "Fine tuned a pre-trained transformer Encoder MLP Decoder architecture into semantic segmentation model. Dataset has 18 labels and 17k samples. The model contains about 3.7 million params. Model achieved mean mIoU of 051%"
   project_page: https://huggingface.co/hitmanonholiday/clozy-segmentation-b0
-  arxiv: 2406.06527
-  image: illuminerf_before.jpg
-  image_mouseover: illuminerf_after.mp4
-  authors:
-    - xiaomingzhao
-    - pratuls
-    - dorverbin
-    - keunhong
-    - rmbrualla
-    - phenzler
+  colab: https://colab.research.google.com/drive/1gIhu3Uy9KWwn2qVii4b8K341SykjGJ_H?usp=sharing
+  image: segmentation.png
+  image_mouseover: segmentation.mp4
 
 - id: reconfusion
   title: "ReconFusion: 3D Reconstruction with Diffusion Priors"
