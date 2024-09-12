@@ -165,6 +165,71 @@ layout: null
       </div>
       {% endfor %}
 
+
+      <h2 class="title is-3">Certifications</h2>
+      {% for cert in site.data.certifications %}
+      <div class="project-block columns">
+        <div class="column is-2">
+          <div class="project-image {% if cert.image_mouseover %}project-mousecell{% endif %}">
+            {% if publication.image_mouseover contains "mp4" %}
+            <video autoplay preload playsinline class="" height="100%" loop muted width="100%">
+              <source src="./images/{{ publication.image_mouseover }}" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            {% endif %}
+            <img alt="{{ cert.title }}" src="./images/{{ cert.image }}" />
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <h3 class="project-title"><a href="{{ cert.certification_link }}">{{ cert.title }}</a></h3>
+            <div class="project-venue">
+              <span>{{ cert.venue }}</span>
+              {% for award in cert.awards %}
+                <span class="project-venue-emph">{{ award }}<span>
+              {% endfor %}
+            </div>
+            <p class="project-description">{{ cert.description }}</p>
+            <!-- project Links. -->
+            <div class="project-links buttons field has-addons">
+              <a class="external-link button is-small is-ghost" href="{{ cert.project_page }}">
+                <span class="icon"><i class="fas fa-globe-asia"></i></span>
+                <span>Publication Page</span>
+              </a>
+              {% if cert.arxiv %}
+              <a class="external-link button is-small is-ghost" href="https://arxiv.org/pdf/{{ cert.arxiv }}.pdf">
+                <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                <span>PDF</span>
+              </a>
+              {% endif %}
+              {% if cert.arxiv %}
+              <a class="external-link button is-small is-ghost" href="https://arxiv.org/abs/{{ cert.arxiv }}">
+                <span class="icon"><i class="ai ai-arxiv"></i></span>
+                <span>arXiv</span>
+              </a>
+              {% endif %}
+              {% if cert.github %}
+              <a class="external-link button is-small is-ghost" href="https://github.com/{{ cert.github }}">
+                <span class="icon"><i class="fa fab fa-github"></i></span>
+                <span>Code</span>
+              </a>
+              {% endif %}
+              {% if cert.colab %}
+              <a class="external-link button is-small is-ghost" href="{{ cert.colab }}">
+                <span class="icon"><i class="fa fab fa-github"></i></span>
+                <span>Code</span>
+              </a>
+              {% endif %}
+            </div>
+            <!--/ project Links. -->
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+
+
+
+
       <h2 class="title is-3">Research & Projects</h2>
 
       {% for project in site.data.projects %}
