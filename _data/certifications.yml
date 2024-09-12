@@ -5,3 +5,19 @@
     Generative AI and large language models
   certification_link: https://www.credly.com/badges/c4e3e5eb-4d75-4e7a-9714-2fae734fc840/linked_in_profile
   image: nvidia_logo.jpg
+
+- id: garmentSeg
+  title: "AWS Certified Data Analytics - Specialty"
+  venue: NVIDIA
+  description: >-
+    Data Enginerring, Big Data with AWS
+  certification_link: https://cp.certmetrics.com/amazon/en/public/verify/credential/YS3PQSXDJEQ11D3S
+  image: amazon_web_services_logo.jpg
+
+  - id: garmentSeg
+    title: "Confluent Certified Developer for Apache Kafka"
+    venue: Confluent
+    description: >-
+      CCDAK is targeted to developers and solutions architects. It covers Confluent and Apache Kafka® with a particular focus on knowledge of the platform needed in order to develop applications that work with Kafka.
+    certification_link: https://www.credential.net/cbe25ba8-87d7-4d86-967a-1db0bfc4d19d#gs.ehyqad
+    image: confluent_logo.jpg
