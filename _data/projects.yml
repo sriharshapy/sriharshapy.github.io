@@ -4,7 +4,7 @@
   description: >-
     Fine tuned a pre-trained transformer Encoder MLP Decoder architecture into
     semantic segmentation model. Dataset has 18 labels and 17k samples. The
-    model contains about 3.7 million params. Model achieved mean mIoU of 0.514"
+    model contains about 3.7 million params. Model achieved mIoU of 0.514"
   project_page: https://huggingface.co/hitmanonholiday/clozy-segmentation-b0
   colab: https://colab.research.google.com/drive/1gIhu3Uy9KWwn2qVii4b8K341SykjGJ_H?usp=sharing
   image: segmentation.png
